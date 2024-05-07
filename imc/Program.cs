@@ -67,7 +67,7 @@ namespace imc
                     );
                 Console.WriteLine("Há " + Obesos + " pessoas acima do peso e " 
                     + saudaveis + "pessoas saudáveis, logo o percentual de pessoas obesas é de: " 
-                    + 5 / Obesos+"%");
+                    +  Obesos/5+"%");
             }
             Console.ReadKey ();
         }
